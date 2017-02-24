@@ -1,0 +1,20 @@
+# pg_mod_sample extension
+# refer to https://www.postgresql.jp/document/9.5/html/extend-extensions.html
+
+#directory = 'extension'
+
+default_version = '1.0'
+
+comment = 'sample function'
+
+#encoding = utf-8
+
+module_pathname = '$libdir/pg_mod_sample'
+
+#requires = 'foo, bar'
+
+#superuser = true
+
+relocatable = true
+
+#schema = 'public'
